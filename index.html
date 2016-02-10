@@ -55,14 +55,14 @@
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li class="dropdown">
-              <!-- themes is a dropdown list <b> apply an arrow when the botton is not clicked--->
+              <!-- themes is a dropdown list <b> apply an arrow when the botton is not clicked -->
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themes<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Admin & dashboard</li>
                 <li><a href="#">Admin 1</a></li>
                 <li><a href="#">Admin 1</a></li>
 
-                <!--divide the dropdown headers-->
+                <!-- divide the dropdown headers -->
                 <li class="divider"></li>
 
                 <li class="dropdown-header">Portfolio</li>
@@ -86,8 +86,8 @@
         <a href="#" class="btn btn-success">Sell Themes</a>
       </div>
       <div class="row">
-        <!--<div class="col-md-4">--><!-- column medium. Text will collapse vertically. How many columns remain when shrinking-->
-        <div class="col-sm-4"><!-- column medium. Text will collapse vertically. How many columns remain when shrinking-->
+        <!-- <div class="col-md-4">--><!-- column medium. Text will collapse vertically. How many columns remain when shrinking -->
+        <div class="col-sm-4"><!-- column medium. Text will collapse vertically. How many columns remain when shrinking -->
           <a href="#" class="thumbnail">
             <img src="img/thumb1.jpg" alt="Slate Bootstrap Admin Theme" />
           </a>
@@ -146,18 +146,42 @@
     <div class="modal fade" id="contact" role="dialog"><!-- modal fade: look at jquery optons for all options. id=contact, references to #contact-->
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h4>Contact</h4>
-          </div>
-          <div class="modal-body">
-            <p>
-              For general inquiries please emal contact@bootstrapbay.com
-            </p>
-          </div>
-          <div class="modal-footer">
-            <!-- a button to close the modal window-->
-            <a class="btn btn-primary" data-dismiss="modal">Close</a>
-          </div>
+          <form class="form-horizontal" role="form">
+            <div class="modal-header">
+              <h4>Contact</h4>
+            </div>
+            <div class="modal-body">
+
+              <!--A conctact form group with email, name, etc-->
+              <div class="form-group">
+                <label for="contact-name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="contact-name" placeholder="First & Last Name"><!-- the id for contact name must match the label for -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="contact-email" placeholder="example@domain.com"><!-- the id for contact name must match the label for -->
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="4"></textarea>
+                </div>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <!-- a button to close the modal window-->
+              <a class="btn btn-default" data-dismiss="modal">Close</a>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+
+          </form>
         </div>
       </div>
     </div>

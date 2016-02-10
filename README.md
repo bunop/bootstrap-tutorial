@@ -35,7 +35,7 @@ directory. Once extracted, the directory must be be something like this:
 └── README.md
 ```
 
-The follow the tutorial at [bootstrapbay youtube channel][boostrapbay-yt-channel]
+Then follow the tutorial at [bootstrapbay youtube channel][boostrapbay-yt-channel]
 
 [getting-started]: http://getbootstrap.com/getting-started/
 [boostrapbay-yt-channel]: https://www.youtube.com/channel/UCQ7erinMCeODr6XdPknmj7w
