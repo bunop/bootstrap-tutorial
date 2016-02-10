@@ -9,4 +9,5 @@ Disable text-decoration (color) in navbar-text
 
 body {
   padding-top: 70px;
+  padding-bottom: 100px;
 }
