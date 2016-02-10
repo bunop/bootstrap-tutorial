@@ -1,0 +1,8 @@
+
+/*
+Disable text-decoration (color) in navbar-text
+*/
+.navbar-text  > a {
+  color: inherit;
+  text-decoration: none;
+}
