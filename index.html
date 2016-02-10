@@ -66,7 +66,7 @@
                 <li><a href="#">Portfolio 1</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li><!--#contact a reference to javascript jquery-->
           </ul>
         </div><!-- navbar-collapse-->
       </div>
@@ -92,7 +92,7 @@
         </div>
 
         <div class="col-sm-4"><!-- column medium. Text will collapse orizontally. How mani columns remain -->
-          <h3>Theme 1</h3>
+          <h3>Theme 2</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit vel mi id egestas. Vivamus posuere imperdiet sem, eget accumsan tellus congue in. Quisque sed congue ligula. Mauris sagittis at augue ut cursus. Sed id tincidunt est. Phasellus in sapien dapibus, aliquet mi sed, ornare risus. Quisque eu egestas enim. Suspendisse a facilisis odio. Mauris vitae neque enim. Integer consequat sit amet ipsum id varius.
           </p>
@@ -100,7 +100,7 @@
         </div>
 
         <div class="col-sm-4"><!-- column medium. Text will collapse orizontally. How mani columns remain -->
-          <h3>Theme 1</h3>
+          <h3>Theme 3</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit vel mi id egestas. Vivamus posuere imperdiet sem, eget accumsan tellus congue in. Quisque sed congue ligula. Mauris sagittis at augue ut cursus. Sed id tincidunt est. Phasellus in sapien dapibus, aliquet mi sed, ornare risus. Quisque eu egestas enim. Suspendisse a facilisis odio. Mauris vitae neque enim. Integer consequat sit amet ipsum id varius.
           </p>
@@ -122,6 +122,29 @@
           <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
           <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
           <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ============================================================================ -->
+    <!-- Placed at the end pf the document so pages load faster -->
+
+    <div class="modal fade" id="contact" role="dialog"><!-- modal fade: look at jquery optons for all options. id=contact, references to #contact-->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Contact</h4>
+          </div>
+          <div class="modal-body">
+            <p>
+              For general inquiries please emal contact@bootstrapbay.com
+            </p>
+          </div>
+          <div class="modal-footer">
+            <!-- a button to close the modal window-->
+            <a class="btn btn-primary" data-dismiss="modal">Close</a>
+          </div>
         </div>
       </div>
     </div>
