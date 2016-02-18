@@ -19,3 +19,127 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
+
+/* a nice navy blue color for all the navbar (top) */
+.navbar-default {
+  background-color: #2C3E50;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+/* let's color the navbar-brand class Bootstrap bay */
+.navbar-default .navbar-brand {
+  color: #FFFFFF;
+}
+
+/* let's color the navbar-brand class on focus or hover */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color:  #18BC9C;
+  background-color: transparent;
+}
+
+/* color for the right side of the page */
+
+/* color the link (Home, about, ...) */
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+/* Color around the active link (Home, ...) */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+  background-color: #1A242F;
+}
+
+/* change color on focus */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #18BC9C;
+  background-color: transparent;
+}
+
+/* change color of the active dropdown menu */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FFFFFF;
+  background-color: #1A242F;
+}
+
+/* change the bottom primary color */
+.btn-primary {
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+  color: #FFFFFF;
+}
+
+/* change the bottom primary color when hoover. More dark */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open, dropdown-toggle.btn-primary {
+  background-color: #1E2A36;
+  border-color:  #161F29;
+  color: #FFFFFF;
+}
+
+/* change the bottom success color */
+.btn-success {
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+  color: #FFFFFF;
+}
+
+/* change the bottom primary succes when hoover. More dark */
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open, dropdown-toggle.btn-success {
+  background-color: #13987E;
+  border-color: #11866F;
+  color: #FFFFFF;
+}
+
+/* change the default button color */
+.btn-default {
+  background-color: #95A5A6;
+  border-color: #95A5A6;
+  color: #FFFFFF;
+}
+
+/* change the default button when hoover. More dark */
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open, dropdown-toggle.btn-default {
+  background-color: #7F9293;
+  border-color: #74898A;
+  color: #FFFFFF;
+}
+
+/*
+
+Navy Blue: #2C3E50;
+Navy Blue Active: #1A242F;
+Turquouse: #18BC9C;
+White: #FFFFFF;
+
+BTN Primary: #2C3E50;
+BTN Primary Hover: #1E2A36;
+BTN Primary Hover Boarder: #161F29;
+
+BTN Success: #18BC9C;
+BTN Success Hover: #13987E;
+BTN Success Hover Boarder: #11866F;
+
+BTN Default: #95A5A6;
+BTN Default Hover: #7F9293;
+BTN Default Hover Boarder: #74898A;
+
+*/
