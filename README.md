@@ -5,6 +5,8 @@ Bootstrap Tutorial
 Download [boostrap][getting-started] and place the content of the archive in this
 directory. Once extracted, the directory must be be something like this:
 
+Note: bootstrap3 files are now tracked in git: no need to donwload an outdated bootstrap version
+
 ```
 .
 ├── css
